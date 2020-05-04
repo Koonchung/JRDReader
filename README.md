@@ -1,4 +1,4 @@
-# JRDReader
+# JrdReader
 
 ## Introduction
 
@@ -32,6 +32,12 @@ void loop() {
   Serial.println(str);
   delay(2000);
 }
+```
+
+### stopRead():
+
+```C++
+reader.stopRead();
 ```
 
 ### More methods are coming soon
