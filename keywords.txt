@@ -1,0 +1,3 @@
+JrdReader	KEYWORD1
+readOnce	KEYWORD2
+stopRead	KEYWORD3
