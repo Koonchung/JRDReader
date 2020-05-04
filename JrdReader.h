@@ -2,8 +2,8 @@
  * @File: JrdReader.h
  * @Description: An Arduino Lirary used to read RFID code from baggage.
  * @Author: elvin chan
- * @CreatedTime: 2020.4.21
- * @LastEditTime: 2020.4.26
+ * @CreatedTime: 2020-04-21
+ * @LastEditTime: 2020-05-04
  */
 
 #include "Arduino.h"
@@ -17,7 +17,8 @@ class JrdReader {
 
   public:
     JrdReader();
-    String readOnce();  
+    String readOnce();
+    void stopRead();
 };
 
 #endif
